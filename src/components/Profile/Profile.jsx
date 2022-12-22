@@ -1,4 +1,6 @@
 import css from "./Profile.module.css" 
+import formater from "../../utils/formater"
+
 const Profile = ({ avatar, username, tag, location, stats }) => {
     
 return (
@@ -15,18 +17,19 @@ return (
         <ul className={css.stats}>
             <li className={css.stats_item}>
                 <span className={css.label}>Followers </span>
-                <span className={css.quantity}>{stats.followers.toLocaleString()}</span>
+                <span className={css.quantity}>{formater.format(stats.followers)}</span>
             </li>
             <li className={css.stats_item}>
                 <span className={css.label}>Views </span>
-                <span className={css.quantity}>{stats.views.toLocaleString()}</span>
+                <span className={css.quantity}>{formater.format(stats.views)}</span>
             </li>
             <li className={css.stats_item}>
                 <span className={css.label}>Likes </span>
-                <span className={css.quantity}>{stats.likes.toLocaleString()}</span>
+                <span className={css.quantity}>{formater.format(stats.likes)}</span>
             </li>
         </ul>    
         </div>
     );
 }
 export default Profile;
+
