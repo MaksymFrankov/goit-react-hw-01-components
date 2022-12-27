@@ -13,16 +13,7 @@ import items from "./TransactionHistory/transactions.json"
 
 export const App = () => {
   return (
-    <div
-    // style={{
-    //   height: '100vh',
-    //   display: 'flex',
-    //   justifyContent: 'center',
-    //   alignItems: 'center',
-    //   fontSize: 40,
-    //   color: '#010101'
-    // }}
-    >
+    <div>
       <ProfileList users={user} />
       <StatisticList stats={data} title='Upload Stats' />
       <StatisticList stats={data} />
