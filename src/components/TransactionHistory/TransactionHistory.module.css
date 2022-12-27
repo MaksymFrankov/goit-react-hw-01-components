@@ -1,10 +1,19 @@
-p {
-
-}
 
 
 .transaction_history {
    width: 640px;
    margin: 0 auto ;
    text-align: center;
+   background-color: #fff;  
+   border-collapse:collapse;
+    width:20%;  
+}
+.tableHead {
+   border:1px solid grey;
+   background-color: blue;
+   color: #fff;
+}
+
+.tableBody {
+   border:1px solid grey;
 }
