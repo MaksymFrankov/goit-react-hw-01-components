@@ -1,6 +1,7 @@
 ul{
     margin: 0;
 }
+
 .statistics {
     width: 320px;
     height: auto;
@@ -8,21 +9,19 @@ ul{
     text-align: center;
     margin-top: 20px;
 }
+
 .title {
     background: white;
     padding: 25px 0px;
     margin: 0;
 }
+
 .stat_list {
-/* justify-content: flex; */
 display: table;
 width: 100%;
-/* flex-direction: column; */
-/* grid-template-columns: repeat(auto-fit, minmax(10em, 20em)); */
 }
+
 .item {
-    /* flex-shrink: ; */
-    /* display: inline-block; */
     background-color: tomato;
     padding: 10px 0px;
     display: table-cell;

@@ -19,10 +19,8 @@ function TransactionHistory({ items }) {
                         <td className={css.tableBody}>{items.currency}</td>
                     </tr>
                 </tbody>
-)}
-</table>
+            )}
+        </table>
     )
-
-
 }
 export default TransactionHistory;
